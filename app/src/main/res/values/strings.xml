@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">ABESLink</string>
+    
+    <!-- Dashboard Screen -->
+    <string name="dashboard_title">ABESLink</string>
+    <string name="dashboard_login_now">Login Now</string>
+    <string name="dashboard_credentials">Credentials</string>
+    <string name="dashboard_settings">Settings</string>
+    <string name="dashboard_test_connection">Test Connection</string>
+    <string name="dashboard_recent_activity">Recent Activity</string>
+    <string name="dashboard_no_activity">No activity yet</string>
+    <string name="dashboard_no_activity_desc">Your recent connection logs will appear here</string>
+    <string name="dashboard_auto_login">Auto-login</string>
+    <string name="dashboard_last_login">Last login</string>
+    
+    <!-- Connection Status -->
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_captive_portal">Captive Portal</string>
+    <string name="status_failed">Connection Failed</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_app_icon">App Icon</string>
+    <string name="cd_wifi_icon">WiFi Icon</string>
+    <string name="cd_view_details">View details</string>
+    <string name="cd_test_connection">Test Connection</string>
 </resources>
