@@ -25,4 +25,29 @@
     <string name="cd_wifi_icon">WiFi Icon</string>
     <string name="cd_view_details">View details</string>
     <string name="cd_test_connection">Test Connection</string>
+    
+    <!-- Credentials Screen -->
+    <string name="credentials_title">Credentials</string>
+    <string name="credentials_header">Login Credentials</string>
+    <string name="credentials_description">Enter your credentials once. They will be used for all WiFi networks.</string>
+    <string name="credentials_username">Username</string>
+    <string name="credentials_password">Password</string>
+    <string name="credentials_username_hint">Enter your username</string>
+    <string name="credentials_password_hint">Enter your password</string>
+    <string name="credentials_save">Save Credentials</string>
+    <string name="credentials_test">Test Login</string>
+    <string name="credentials_clear">Clear Credentials</string>
+    <string name="credentials_saved">Saved Successfully</string>
+    <string name="credentials_saving">Saving…</string>
+    <string name="credentials_testing">Testing…</string>
+    <string name="credentials_security_title">Secure Storage</string>
+    <string name="credentials_security_desc">Your credentials are encrypted and stored securely on your device.</string>
+    <string name="credentials_test_success">Test Successful</string>
+    <string name="credentials_test_success_msg">Login credentials are valid and working!</string>
+    <string name="credentials_test_failed">Test Failed</string>
+    <string name="credentials_test_failed_msg">Unable to login. Please check your credentials.</string>
+    <string name="credentials_clear_title">Clear Credentials?</string>
+    <string name="credentials_clear_message">This will permanently delete your saved username and password. You\'ll need to enter them again for future logins.</string>
+    <string name="credentials_clear_confirm">Clear</string>
+    <string name="credentials_clear_cancel">Cancel</string>
 </resources>

@@ -270,7 +270,7 @@ fun AnimatedConnectionStatusCard(
         colors = CardDefaults.cardColors(
             containerColor = getStatusColor(connectionStatus).copy(alpha = 0.1f)
         ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+        shape = RoundedCornerShape(20.dp)
     ) {
         Box(
             modifier = Modifier.fillMaxSize(),
