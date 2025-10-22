@@ -50,4 +50,30 @@
     <string name="credentials_clear_message">This will permanently delete your saved username and password. You\'ll need to enter them again for future logins.</string>
     <string name="credentials_clear_confirm">Clear</string>
     <string name="credentials_clear_cancel">Cancel</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_header">App Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_network">Network</string>
+    <string name="settings_data">Data Management</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_dark_mode_desc">Switch between light and dark theme</string>
+    <string name="settings_auto_login">Auto-login</string>
+    <string name="settings_auto_login_desc">Automatically login when captive portal is detected</string>
+    <string name="settings_foreground_service">Foreground Service</string>
+    <string name="settings_foreground_service_desc">Keep app running in background (may impact battery)</string>
+    <string name="settings_foreground_warning">⚠️ May increase battery usage</string>
+    <string name="settings_probe_interval">Probe Interval</string>
+    <string name="settings_probe_interval_desc">How often to check network status</string>
+    <string name="settings_probe_url">Probe URL</string>
+    <string name="settings_probe_url_desc">URL used to detect captive portal</string>
+    <string name="settings_clear_data">Clear All Data</string>
+    <string name="settings_clear_data_desc">Reset app to default settings</string>
+    <string name="settings_clearing_data">Clearing Data…</string>
+    <string name="settings_clear_dialog_title">Clear All Data?</string>
+    <string name="settings_clear_dialog_message">This will reset all settings to default and clear saved credentials. This action cannot be undone.</string>
+    <string name="settings_clear_confirm">Clear All</string>
+    <string name="settings_clear_cancel">Cancel</string>
+    <string name="settings_save_url">Save URL</string>
 </resources>
