@@ -38,13 +38,14 @@ import com.app.abeslink.viewmodel.*
 fun DashboardScreen(
     viewModel: DashboardViewModel = viewModel(),
     onNavigateToCredentials: () -> Unit = {},
-    onNavigateToSettings: () -> Unit = {}
+    onNavigateToSettings: () -> Unit = {},
+    onNavigateToAbout: () -> Unit = {}
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
 
     Scaffold(
         topBar = {
-            DashboardTopBar()
+            DashboardTopBar(onNavigateToAbout = onNavigateToAbout)
         },
         floatingActionButton = {
             AnimatedFloatingActionButton(
@@ -126,7 +127,7 @@ fun DashboardScreen(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun DashboardTopBar() {
+fun DashboardTopBar(onNavigateToAbout: () -> Unit = {}) {
     TopAppBar(
         title = {
             Row(
@@ -143,6 +144,15 @@ fun DashboardTopBar() {
                     text = "ABESLink",
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.Bold
+                )
+            }
+        },
+        actions = {
+            IconButton(onClick = onNavigateToAbout) {
+                Icon(
+                    imageVector = Icons.Filled.Info,
+                    contentDescription = "About",
+                    tint = MaterialTheme.colorScheme.primary
                 )
             }
         },

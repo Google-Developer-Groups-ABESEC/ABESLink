@@ -8,6 +8,7 @@ import androidx.compose.runtime.*
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.app.abeslink.ui.about.AboutScreen
 import com.app.abeslink.ui.credentials.CredentialsScreen
 import com.app.abeslink.ui.dashboard.DashboardScreen
 import com.app.abeslink.ui.settings.SettingsScreen
@@ -40,6 +41,9 @@ fun ABESLinkApp() {
                     },
                     onNavigateToSettings = {
                         navController.navigate("settings")
+                    },
+                    onNavigateToAbout = {
+                        navController.navigate("about")
                     }
                 )
             }
@@ -59,6 +63,14 @@ fun ABESLinkApp() {
                     },
                     onDarkModeToggle = { enabled ->
                         isDarkMode = enabled
+                    }
+                )
+            }
+
+            composable("about") {
+                AboutScreen(
+                    onNavigateBack = {
+                        navController.popBackStack()
                     }
                 )
             }
