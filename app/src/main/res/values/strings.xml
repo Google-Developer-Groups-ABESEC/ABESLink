@@ -76,4 +76,28 @@
     <string name="settings_clear_confirm">Clear All</string>
     <string name="settings_clear_cancel">Cancel</string>
     <string name="settings_save_url">Save URL</string>
+    
+    <!-- About Screen -->
+    <string name="about_title">About</string>
+    <string name="about_app_name">ABESLink</string>
+    <string name="about_version">Version</string>
+    <string name="about_build">Build</string>
+    <string name="about_description">Automatic captive portal authentication app for seamless internet connectivity.</string>
+    <string name="about_developers">Developers</string>
+    <string name="about_gdg">Google Developer Groups</string>
+    <string name="about_college">ABES Engineering College</string>
+    <string name="about_gdg_desc">Built by passionate developers from GDG ABES to make campus connectivity seamless and hassle-free.</string>
+    <string name="about_support_links">Support &amp; Links</string>
+    <string name="about_report_bug">Report a Bug</string>
+    <string name="about_report_bug_desc">Found an issue? Let us know.</string>
+    <string name="about_send_feedback">Send Feedback</string>
+    <string name="about_send_feedback_desc">Have a suggestion or feedback?</string>
+    <string name="about_view_repository">View Repository</string>
+    <string name="about_view_repository_desc">Check out the code on GitHub.</string>
+    <string name="about_visit_github">Visit GitHub</string>
+    <string name="about_visit_github_desc">Explore our open-source project.</string>
+    <string name="about_made_with">Made with</string>
+    <string name="about_by">by</string>
+    <string name="about_gdg_abes">GDG ABES</string>
+    <string name="about_copyright">© 2025 Google Developer Groups</string>
 </resources>
