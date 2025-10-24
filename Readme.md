@@ -47,6 +47,15 @@ git clone https://github.com/Google-Developer-Groups-ABESEC/ABESLink/
 # Hit that green play button
 ```
 
+## Contributing
+
+We welcome contributions! Please check out our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get started.
+
+Quick links:
+- 🐛 [Report a Bug](https://github.com/Google-Developer-Groups-ABESEC/ABESLink/issues)
+- 💡 [Request a Feature](https://github.com/Google-Developer-Groups-ABESEC/ABESLink/issues)
+- 🔧 [Submit a PR](https://github.com/Google-Developer-Groups-ABESEC/ABESLink/pulls)
+
 ## Roadmap
 
 - [ ] Widget support for quick login
@@ -63,11 +72,10 @@ git clone https://github.com/Google-Developer-Groups-ABESEC/ABESLink/
 
 ## Support
 
-Having issues? Found a bug? Want to suggest a feature?
+Need help? Have questions?
 
-- 🐛 [Report a Bug](https://github.com/Google-Developer-Groups-ABESEC/ABESLink/issues)
-- 💡 [Request a Feature](https://github.com/Google-Developer-Groups-ABESEC/ABESLink/issues)
 - 📧 [Email Us](mailto:gdg.abesec@gmail.com)
+- 💬 [GitHub Discussions](https://github.com/Google-Developer-Groups-ABESEC/ABESLink/discussions)
 
 ## Disclaimer
 
